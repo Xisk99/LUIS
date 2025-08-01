@@ -87,7 +87,7 @@ export default function Home() {
     setHasCrashed(true);
     
     // Animate crash
-    let steps = 10;
+    const steps = 10;
     let currentStep = 0;
     
     const crashInterval = setInterval(() => {
